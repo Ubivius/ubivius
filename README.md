@@ -1,4 +1,4 @@
-# <img src="https://github.com/Ubivius/ubivius/blob/feature/UBI-444-Create-github-base-doc/assets/ubivius_elephant.png" alt="Ubivius Icon" width="45" height=""> Ubivius
+# <img src="https://github.com/Ubivius/ubivius/blob/feature/UBI-444-Create-github-base-doc/assets/ubivius_elephant.png" alt="Ubivius Icon" width="45" height="">Ubivius
 This repo houses the home of Ubivius by providing links to every products and putting some context for them. Ubivius is a suite of products to deploy and manage an online plateform for game development. The projects are split in the following families: microservices, infrastructure, telemetry, and game.
 ## Microservices
 We have three parts linked to microservices: workflows-microservices, microservice-\* and shared-\*.
