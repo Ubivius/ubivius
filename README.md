@@ -27,18 +27,18 @@ Those git repositories are for shared libraries that could be used in any of the
 - [shared-resource-manager](https://github.com/Ubivius/shared-resource-manager): A Go library to access Kubernetes cluster resources
 ## Infrastructure
 Infrastructure are components developped by various external teams that are customized to support functions like routing, authentication management, databases and databases content viewers.
-- [deploy-traefik](): A component that acts as a router for incoming requests to the cluster. Uses ingresses to route in the cluster
-- [deploy-keycloak](): A component managing user logins, token generation and user groups for access levels in authentication. Work with microservice-authentication as access API
-- [deploy-elasticsearch](): A database used for telemetry data ingested by jaeger and logstash
-- [deploy-mongodb](): A database used by the microservices' platform
+- [deploy-traefik](https://github.com/Ubivius/deploy-traefik): A component that acts as a router for incoming requests to the cluster. Uses ingresses to route in the cluster
+- [deploy-keycloak](https://github.com/Ubivius/deploy-keycloak): A component managing user logins, token generation and user groups for access levels in authentication. Work with microservice-authentication as access API
+- [deploy-elasticsearch](https://github.com/Ubivius/deploy-elasticsearch): A database used for telemetry data ingested by jaeger and logstash
+- [deploy-mongodb](https://github.com/Ubivius/deploy-mongodb): A database used by the microservices' platform
 - [~~deploy-kibana~~](https://github.com/Ubivius/ubivius#infrastructure):(Not created yet) A database viewer for Elastic Search
 - [~~deploy-compass~~](https://github.com/Ubivius/ubivius#infrastructure):(Not created yet) A database viewer for MongoDB
 ## Telemetry
 Telemetry projects are also from external teams and were picked out form the Cloud Native Computing Foundation's([CNCF](https://landscape.cncf.io)) landscape page. They are the way administrators can monitor health and state from all deployed components in your Kubernetes cluster.
-- [telemetry-grafana](): A dashboard manager to display all the relevant informations to enable your team to deploy and diagnose the cluster's content
-- [telemetry-jaeger](): A tool that aggregates network traces for the cluster
-- [telemetry-logstash](): A tool that aggregates and structures logs of the cluster's components
-- [telemetry-prometheus](): A tool that scrapes metrics (ex: Cpu, memory and disk usage) from the cluster's components
+- [telemetry-grafana](https://github.com/Ubivius/telemetry-grafana): A dashboard manager to display all the relevant informations to enable your team to deploy and diagnose the cluster's content
+- [telemetry-jaeger](https://github.com/Ubivius/telemetry-jaeger): A tool that aggregates network traces for the cluster
+- [telemetry-logstash](https://github.com/Ubivius/telemetry-logstash): A tool that aggregates and structures logs of the cluster's components
+- [telemetry-prometheus](https://github.com/Ubivius/telemetry-prometheus): A tool that scrapes metrics (ex: Cpu, memory and disk usage) from the cluster's components
 ### Telemetry's Workflow
 This single repository is used to centralize and distribute CI/CD scripts to all telemetry applications. This enables your team to modify it in one place and distribute it with one merge on dev and another one on master when it was successful.
 - Here it is: [workflows-telemetry](https://github.com/Ubivius/workflows-telemetry).
