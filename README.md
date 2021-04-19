@@ -12,7 +12,7 @@ The services are developped in Golang and are mostly independent. There are two 
 These services must be present in your cluster for basic functionnality of the platform.
 - [microservice-authentication](https://github.com/Ubivius/microservice-authentication): A service that allows sign up and sign in of a player/administrator
 - [microservice-dispatcher](https://github.com/Ubivius/microservice-dispatcher): A kubernetes controller that manages game servers' creation/destruction for players
-- [microservice-user](https://github.com/Ubivius/microservice-user): A service that saves player/administrator related metadata
+- [microservice-user](https://github.com/Ubivius/microservice-user): A service that saves player/administrator related data
 #### Feature Services
 Theses services are feature-specific and your team can customize which ones to deploy based on your game's needs.
 - [microservice-achievements](https://github.com/Ubivius/microservice-achievements): You can add your achievements' definitions and icon. Your game will be able to give achievements to your players by validating with this service
