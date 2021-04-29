@@ -24,7 +24,6 @@ Theses services are feature-specific and your team can customize which ones to d
 ### Shared-\*
 Those git repositories are for shared libraries that could be used in any of the microservices. 
 - [shared-authentication](https://github.com/Ubivius/shared-authentication): An OIDC library validating JSON Web Token
-- [shared-resource-manager](https://github.com/Ubivius/shared-resource-manager): A Go library to access Kubernetes cluster resources
 ## Infrastructure
 Infrastructure are components developped by various external teams that are customized to support functions like routing, authentication management, databases and databases content viewers.
 - [deploy-traefik](https://github.com/Ubivius/deploy-traefik): A component that acts as a router for incoming requests to the cluster. Uses ingresses to route in the cluster
